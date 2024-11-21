@@ -138,8 +138,7 @@ def scrape_products(category_url, category, writer):
             
         soup = BeautifulSoup(html_content, 'html.parser')
 
-        # Find all product cards using the specified method
-        product_cards = soup.find_all("product-card")  # Change this line based on your requirements
+        product_cards = soup.find_all("product-card") 
 
         if not product_cards:
             print("No more products found on this page.")

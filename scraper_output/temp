@@ -1,0 +1,459 @@
+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" id="icon-visa-payment_svg__b" width="2560" height="829"></image></defs></svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 44 20" class=" " stroke="none" style="height: 20px; width: 35px;"><rect width="43.369" height="19.369" x="0.316" y="0.316" fill="#fff" rx="1.988"></rect><g clip-path="url(#icon-rupay-payment_svg__a)"><path fill="#2A2A89" d="M23.188 7.981c.138-1.125-.694-1.594-1.732-1.594H18.73l-1.609 6.05h1.733l.487-1.866 1.38.008s2.139.093 2.468-2.599v.001Zm-1.782.6c-.225.65-.847.573-.847.573h-.848l.335-1.285s.537.003.891.003c.434 0 .592.355.47.71ZM13.29 8.04h1.58l-.651 2.583s-.162.576.36.62c.412.036.72-.472.82-.816.132-.451.646-2.386.646-2.386h1.628l-1.239 4.395h-1.421l.174-.628s-.725.912-1.802.803c-.958-.097-1.04-.814-.874-1.708.081-.439.779-2.862.779-2.862Z"></path><path fill="#2A2A89" d="M27.032 10.269c.209-.731.471-1.424.26-1.807-.325-.587-.911-.639-1.769-.639-.948 0-2.117.185-2.499 1.485h1.578s.143-.49.736-.458c.524.027.495.399.302.604-.339.36-1.274.16-2.31.532-.906.323-1.223 1.551-1.026 2.041.19.475.546.536 1.024.585.77.078 1.36-.365 1.634-.624 0 .288.007.45.007.45h1.66l-.004-.162s-.148-.04-.131-.255c.012-.157.299-.912.538-1.752Zm-2.387 1.272c-.27.07-.599.11-.664-.144-.178-.695 1.4-.898 1.4-.898.01.633-.527.988-.735 1.043v-.001ZM12.896 7.796c.137-1.125-.823-1.409-1.86-1.409H8.309l-1.61 6.05h1.733l.542-2.055.972.008s.4-.024.409.364c.008.414-.298 1.176-.278 1.681h1.78l-.004-.16s-.148-.041-.131-.256c.006-.089.102-.371.227-.752.075-.167.19-.565.178-.89-.013-.404-.259-.592-.614-.723 1.107-.268 1.383-1.86 1.383-1.86v.002Zm-1.839.772c-.224.535-.918.474-.918.474l-.809-.004.295-1.133 1.079.003c.38 0 .498.314.353.66ZM27.782 8.04h1.61v2.638l1.393-2.637h1.477l-2.978 5.33s-.276.448-.62.684c-.282.195-.628.187-.733.194-.589-.006-1.298-.007-1.298-.007l.342-1.271.554-.002s.253-.027.351-.155a.647.647 0 0 0 .141-.426c0-.27-.238-4.348-.238-4.348Z"></path><path fill="#0F8047" d="m34.326 7.026-1.858 6.666 3.478-3.332-1.62-3.334Z"></path><path fill="#F0721D" d="m33.135 7.026-1.858 6.666 3.478-3.332-1.62-3.334Z"></path></g><rect width="43.369" height="19.369" x="0.316" y="0.316" stroke="#E8E9EA" stroke-width="0.631" rx="1.988"></rect><defs><clipPath id="icon-rupay-payment_svg__a"><path fill="#fff" d="M6.7 5.75h30.6v8.5H6.7z"></path></clipPath></defs></svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 27 20" class=" " stroke="none" style="height: 20px; width: 35px;"><rect width="26.369" height="19.369" x="0.316" y="0.316" fill="#fff" rx="1.988"></rect><path fill="#FF5F00" d="M15.667 6.106h-4.335v7.789h4.335v-7.79Z"></path><path fill="#EB001B" d="M11.608 10A4.944 4.944 0 0 1 13.5 6.106a4.953 4.953 0 1 0 0 7.788A4.945 4.945 0 0 1 11.608 10Z"></path><path fill="#F79E1B" d="M21.514 10a4.954 4.954 0 0 1-8.014 3.894 4.955 4.955 0 0 0 0-7.788A4.953 4.953 0 0 1 21.514 10ZM21.043 13.07v-.16h.064v-.033h-.163v.033h.064v.16h.035Zm.318 0v-.193h-.05l-.058.132-.058-.132h-.05v.192h.035v-.145l.055.125h.036l.054-.125v.145h.036Z"></path><rect width="26.369" height="19.369" x="0.316" y="0.316" stroke="#E8E9EA" stroke-width="0.631" rx="1.988"></rect></svg></div></div></div><div class="footer-category-listing lg:border-t-2 lg:border-[#979797] flex flex-col gap-5 lg:gap-0 lg:flex-row lg:pt-5"><div class="flex flex-col gap-3 lg:gap-4  w-full lg:w-full"><span variant="semibold" type="base" color="#fff" class="sc-a6c4ca6a-0 cLLJTa">Men's Clothing</span><div class="flex flex-row lg:flex-col flex-wrap lg:flex-nowrap gap-2 w-full"><a class="flex gap-2 footer_seperate-li__VwF_l" href="/top-wear-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Top Wear</span></a><a class="flex gap-2 undefined" href="/men-new-arrivals-collection"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's New Arrivals</span></a><a class="flex gap-2 undefined" href="/men-t-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's T-Shirts</span></a><a class="flex gap-2 undefined" href="/men-hoodies-sweatshirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Hoodies &amp; Sweatshirts</span></a><a class="flex gap-2 undefined" href="/oversized-t-shirts-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Oversized T-Shirts for Men</span></a><a class="flex gap-2 undefined" href="/men-full-sleeve-t-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Long Sleeve T-shirts</span></a><a class="flex gap-2 undefined" href="/white-t-shirts-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's White T-shirts</span></a><a class="flex gap-2 undefined" href="/crew-neck-t-shirts-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Crew Neck T-shirts</span></a><a class="flex gap-2 undefined" href="/half-sleeve-t-shirts-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Half Sleeve T-Shirts</span></a><a class="flex gap-2 undefined" href="/men-printed-tshirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Printed T-shirts</span></a><a class="flex gap-2 undefined" href="/men-plain-t-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Plain T-shirts</span></a><a class="flex gap-2 undefined" href="/plus-size-t-shirts-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Plus Size T-shirts</span></a><a class="flex gap-2 undefined" href="/men-vests"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Vests</span></a><a class="flex gap-2 undefined" href="/polo-t-shirts-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Polo T-Shirts</span></a><a class="flex gap-2 undefined" href="/men-tank-tops"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's tank Tops</span></a><a class="flex gap-2 undefined" href="/akatsuki-t-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Akatsuki T-Shirts</span></a><a class="flex gap-2 undefined" href="/men-kurtas"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Kurtas</span></a><a class="flex gap-2 undefined" href="/mens-combo-t-shirt"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Combo T-Shirts</span></a><a class="flex gap-2 undefined" href="/men-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Shirts</span></a><a class="flex gap-2 undefined" href="/men-nightwear"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Nightwear</span></a><a class="flex gap-2 undefined" href="/plus-size-store-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Plus Size Store</span></a><a class="flex gap-2 footer_seperate-li__VwF_l" href="/men-bottom-wear-collection"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Bottom Wear</span></a><a class="flex gap-2 undefined" href="/men-pajamas"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Pajamas</span></a><a class="flex gap-2 undefined" href="/men-boxer-shorts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Boxer Shorts</span></a><a class="flex gap-2 undefined" href="/men-shorts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Shorts</span></a><a class="flex gap-2 undefined" href="/men-joggers"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Jogger</span></a><a class="flex gap-2 undefined" href="/cargo-joggers-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Cargo Joggers</span></a><a class="flex gap-2 undefined" href="/track-pants-for-men"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Track Pants</span></a><a class="flex gap-2 undefined" href="/mens-denim"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Jeans</span></a><a class="flex gap-2 undefined" href="/men-bell-bottom-jeans"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Bell Bottom Jeans</span></a><a class="flex gap-2 undefined" href="/men-pants"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Trousers &amp; Pants</span></a></div><div class="flex flex-col gap-3 lg:gap-4  w-full lg:w-full"><span variant="semibold" type="base" color="#fff" class="sc-a6c4ca6a-0 cLLJTa">Featured</span><div class="flex flex-row lg:flex-col flex-wrap lg:flex-nowrap gap-2 w-full"><a class="flex gap-2 undefined" href="/men-flip-flops"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Flip Flops</span></a><a class="flex gap-2 undefined" href="/men-sliders"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Men's Sliders</span></a><a class="flex gap-2 undefined" href="/marvel-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Marvel T-Shirts</span></a><a class="flex gap-2 undefined" href="/disney-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Disney T-Shirts</span></a><a class="flex gap-2 undefined" href="/avengers-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Avengers T-Shirts</span></a><a class="flex gap-2 undefined" href="/star-wars-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Star Wars T-Shirts</span></a><a class="flex gap-2 undefined" href="/batman-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Batman T-Shirts</span></a><a class="flex gap-2 undefined" href="/superman-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Superman T-Shirts</span></a><a class="flex gap-2 undefined" href="/joker-merchandise"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Joker T-Shirts</span></a></div></div></div><div class="flex flex-col gap-3 lg:gap-4  w-full lg:w-full"><span variant="semibold" type="base" color="#fff" class="sc-a6c4ca6a-0 cLLJTa">Women's Clothing</span><div class="flex flex-row lg:flex-col flex-wrap lg:flex-nowrap gap-2 w-full"><a class="flex gap-2 footer_seperate-li__VwF_l" href="/top-wear-for-women"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Top Wear</span></a><a class="flex gap-2 undefined" href="/women-new-arrivals-collection"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's New Arrivals</span></a><a class="flex gap-2 undefined" href="/women-t-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's T-Shirts</span></a><a class="flex gap-2 undefined" href="/fashion-tops"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Fashion Tops</span></a><a class="flex gap-2 undefined" href="/women-hoodies-sweatshirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Hoodies &amp; Sweatshirts</span></a><a class="flex gap-2 undefined" href="/women-dresses"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Dresses</span></a><a class="flex gap-2 undefined" href="/women-3-4-sleeve-t-shirts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's 3/4 Sleeve T-Shirts</span></a><a class="flex gap-2 undefined" href="/women-kurtas"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Kurtis</span></a><a class="flex gap-2 undefined" href="/womens-combo-t-shirt"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Combo T-Shirts</span></a><a class="flex gap-2 undefined" href="/women-nightwear"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Nightwear</span></a><a class="flex gap-2 undefined" href="/plus-size-store-for-women"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Plus Size Store</span></a><a class="flex gap-2 footer_seperate-li__VwF_l" href="/bottom-wear-for-women"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Bottom Wear</span></a><a class="flex gap-2 undefined" href="/women-co-ord-sets"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Co-ord Sets</span></a><a class="flex gap-2 undefined" href="/women-pajamas"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Pajamas</span></a><a class="flex gap-2 undefined" href="/women-boxer-shorts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Boxer Shorts</span></a><a class="flex gap-2 undefined" href="/womens-denims"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Jeans</span></a><a class="flex gap-2 undefined" href="/women-wide-leg-jeans"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Wide Leg Jeans</span></a><a class="flex gap-2 undefined" href="/jeggings-for-women"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Jeggings</span></a><a class="flex gap-2 undefined" href="/women-joggers-sweatpants"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Joggers</span></a><a class="flex gap-2 undefined" href="/women-pants"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Trousers &amp; Pants</span></a><a class="flex gap-2 undefined" href="/cargo-pants-for-women"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Cargo Pants</span></a><a class="flex gap-2 undefined" href="/track-pants-for-women"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Track Pants</span></a><a class="flex gap-2 undefined" href="/women-shorts"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Shorts</span></a><a class="flex gap-2 footer_seperate-li__VwF_l" href="/bags"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">BAGS</span></a><a class="flex gap-2 undefined" href="/laptop-bags"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Laptop Bags</span></a><a class="flex gap-2 undefined" href="/small-backpacks"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Small Backpacks</span></a></div><div class="flex flex-col gap-3 lg:gap-4  w-full lg:w-full"><span variant="semibold" type="base" color="#fff" class="sc-a6c4ca6a-0 cLLJTa">Featured</span><div class="flex flex-row lg:flex-col flex-wrap lg:flex-nowrap gap-2 w-full"><a class="flex gap-2 undefined" href="/women-sliders"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Slides</span></a><a class="flex gap-2 undefined" href="/women-flip-flops"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Women's Flip Flops</span></a></div></div></div><div class="flex flex-col gap-3 lg:gap-4  w-full lg:w-full"><span variant="semibold" type="base" color="#fff" class="sc-a6c4ca6a-0 cLLJTa">Mobile Covers</span><div class="flex flex-row lg:flex-col flex-wrap lg:flex-nowrap gap-2 w-full"><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Apple"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Apple</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Realme"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Realme</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Samsung"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Samsung</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Xiaomi"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Xiaomi</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Oneplus"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Oneplus</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Vivo"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Vivo</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Oppo"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Oppo</span></a><a class="flex gap-2 undefined" href="/mobile-covers-india?brand=Poco"><span variant="medium" type="2xs" color="#fff" class="sc-a6c4ca6a-0 cLbKYk">Poco</span></a></div></div><div class="flex flex-row  lg:flex-col gap-3 lg:gap-4  w-full lg:w-1/4"><a class="flex gap-2" href="/fanbook-testimonial-reviews"><span variant="medium" type="base" color="#51cccc" class="sc-a6c4ca6a-0 iwSdse !uppercase">Fanbook</span></a><a class="flex gap-2" href="/campaign/delights-coupons-discounts-offers-sale"><span variant="medium" type="base" color="#51cccc" class="sc-a6c4ca6a-0 iwSdse !uppercase">Offers</span></a><a class="flex gap-2" href="/sitemap"><span variant="medium" type="base" color="#51cccc" class="sc-a6c4ca6a-0 iwSdse !uppercase">Sitemap</span></a></div></div></div></section></main> </div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"productDetails":{"id":625622,"url":"mens-black-crest-mark-graphic-printed-oversized-t-shirt","meta_keywords":"T-Shirt","price":699,"limited_edition":false,"ptype":"single","gender":"Men","offer_type":"best_seller","member_price":639,"name":"Men's Black Crest Mark Graphic Printed Oversized Acid Wash T-shirt","meta_title":"Buy Men's Black Crest Mark Graphic Printed Oversized Acid Wash T-shirt Online at Bewakoof","meta_description":"Buy Men's Black Crest Mark Graphic Printed Oversized Acid Wash T-shirt online in India at Bewakoof. Choose from a wide range of T-Shirt for Men. Shop Now.","status":"enabled","canonical_url":null,"colors":[],"cat_material":"","show_reviews":true,"pdp_version":"v2","show_review_filters":true,"show_view_similar":true,"mrp":1249,"all_offer_price":1249,"product_discount":"44% OFF","member_discount":"48% OFF","updated_at":"01 Nov 2024","sort_by_new":1701154395,"tribe_text":"For TriBe Members","tribe_communication_message":"TriBe members get an extra discount of \u003cb\u003e₹60\u003c/b\u003e and FREE shipping.","learn_more_for_tribe":"Learn more","pdp_coupon":{"action_cta":{"heading":"Offers","text":"Save extra with 0 offer","icon":"https://images.bewakoof.com/web/ic-star-offer.svg"},"coupons":{"heading":"Save Extra With Offers","icon":"https://images.bewakoof.com/web/discount-1-2x-1625212811.png","success_message":"Copied successfully","coupon_list":[]}},"tribe_image_url":"https://images.bewakoof.com/web/tribe-icon-2x.png","inclusive_of_taxes_text":"inclusive of all taxes","color_label":"Colour Options:","show_tribe_above_color":true,"size_label":"Select Size","size_guide_label":"Size Guide","delivery_label":"DELIVERY DETAILS","qty_label":"QTY:","pincode_label":"Enter Pincode","show_pincode_box":true,"read_more_label":"Read More","read_less_label":"Read Less","check_label":"Check","change_label":"Change","manufacturer_brand":{},"brand_link":{"brand_link":{"brand_name":"OFFICIAL HARRY POTTER MERCHANDISE","brand_url":null}},"mobile_cover_details":[],"brand":"","product_description_images":[],"category_info":{"cat_type":"Apparel","subtype":"Topwear","gender":"Men","subclass":"T-Shirt","sleeve":"Half Sleeve","fabric":"Cotton Jersey","display_sizechart_on_product":true,"brand":"","model":""},"images":{"original":[{"id":2388391,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1717578949-1.jpg","upgraded_dimension":true}],"display":[{"id":2388391,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1717578949-1.jpg","upgraded_dimension":true}],"additional":[{"id":2388392,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646287-2.jpg","upgraded_dimension":true,"upgraded_dimension2":true},{"id":2388393,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646292-3.jpg","upgraded_dimension":true,"upgraded_dimension2":false},{"id":2388394,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646296-4.jpg","upgraded_dimension":true,"upgraded_dimension2":false},{"id":2388395,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646301-5.jpg","upgraded_dimension":true,"upgraded_dimension2":false},{"id":2388396,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646306-6.jpg","upgraded_dimension":true,"upgraded_dimension2":false},{"id":2388397,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646311-7.jpg","upgraded_dimension":true,"upgraded_dimension2":false},{"id":2482230,"name":"men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1714646316-10.jpg","upgraded_dimension":true,"upgraded_dimension2":false}]},"videos":[],"secondary_images":{},"meta_image":"https://images.bewakoof.com/original/men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1717578949-1.jpg","is_gift_card":0,"gift_card_occasions":[],"cod_enable":1,"product_type":"garment","breadCrumb":[{"name":"Buy Mens Fashion Clothing India","url":"men-clothing"},{"name":"T-shirts for Men","url":"men-t-shirts"},{"name":"Men's Printed T-Shirts","url":"men-printed-tshirts"}],"sizes":[{"name":"S","garment_label":"Garment","garment_details":{"Chest (in Inch)":"42.0","Front Length (in Inch)":"29.0","Sleeve Length (in Inch)":"9.75"},"product_size_id":1312460,"qty_avail":15},{"name":"M","garment_label":"Garment","garment_details":{"Chest (in Inch)":"44.0","Front Length (in Inch)":"29.75","Sleeve Length (in Inch)":"10.0"},"product_size_id":1312461,"qty_avail":106},{"name":"L","garment_label":"Garment","garment_details":{"Chest (in Inch)":"46.0","Front Length (in Inch)":"30.5","Sleeve Length (in Inch)":"10.25"},"product_size_id":1312462,"qty_avail":47},{"name":"XL","garment_label":"Garment","garment_details":{"Chest (in Inch)":"48.0","Front Length (in Inch)":"31.25","Sleeve Length (in Inch)":"10.5"},"product_size_id":1312463,"qty_avail":53},{"name":"2XL","garment_label":"Garment","garment_details":{"Chest (in Inch)":"50.0","Front Length (in Inch)":"32.0","Sleeve Length (in Inch)":"10.75"},"product_size_id":1312464,"qty_avail":4}],"in_stock":1,"stock_comment":null,"atc_cta":{"atc_cta_enable":true,"atc_text":"ADD TO BAG","atc_preorder_text":"PRE-ORDER","enable_haptic":true,"haptic_duration":150,"enable_transition":true,"cta_change_text":"GO TO BAG","experiment_id":""},"color":{"id":7750,"name":"AOP 690","parent_color_name":"Black"},"cod_statement":"","clevertap_object":{"event":"ProductInfo","ec":"ProductInfo","pixel_data":{"event_info":{"url":"mens-black-crest-mark-graphic-printed-oversized-t-shirt","name":"Men's Black Crest Mark Graphic Printed Oversized Acid Wash T-shirt","price":699,"e_price":699,"color":"AOP 690","size":"-1","image":"https://images.bewakoof.com/t540/men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1717578949-1.jpg","fit":"Oversized Fit","subtype":"Topwear","subclass":"T-Shirt","gender":"Men","print_type":"Graphic Print","model":null,"sleeve":"Half Sleeve","rating":4.3},"event_name":"product_viewed","crto_object":{"event":"viewItem","tms":"gtm-criteo-2.0.0","item":[625622]}}},"tracker_data":{"event":"product_view","product_view":{"url":"mens-black-crest-mark-graphic-printed-oversized-t-shirt","name":"Men's Black Crest Mark Graphic Printed Oversized Acid Wash T-shirt","price":699,"e_price":699,"color":"AOP 690","size":"-1","image":"https://images.bewakoof.com/t540/men-s-black-crest-mark-graphic-printed-oversized-acid-wash-t-shirt-625622-1717578949-1.jpg","fit":"Oversized Fit","subtype":"Topwear","subclass":"T-Shirt","gender":"Men","print_type":"Graphic Print","model":null,"sleeve":"Half Sleeve","rating":4.3,"id":625622,"category":"T-Shirt","coupon":"yes"}},"offer_text":null,"description":[{"head":"Product Description","line1":"Unveil your wizarding style with Bewakoof's Crest Mark Graphic Printed Men's Black Oversized Acid Wash T-shirt  a garment that transcends fashion to become a spellbinding statement of magical allegiance. Crafted from premium fabric, this tee is not just an article of clothing; it's a portal to the enchanted world of Hogwarts. \u003cbr\u003e\u003cbr\u003eThe Crest Mark, intricately printed in stunning detail, pays homage to the noble houses of magic. Whether you're a daring Gryffindor, a shrewd Slytherin, a wise Ravenclaw, or a loyal Hufflepuff, this t-shirt lets you wear your allegiance with pride. The oversized fit ensures not just comfort but a touch of wizarding flair that sets you apart in the Muggle crowd.\u003cbr\u003e\u003cbr\u003eCast a spell with your style by pairing this Crest Mark Tee with tailored jeans and classic sneakers  the perfect ensemble for a magical night out or a stroll through the corridors of Hogwarts. \u003cbr\u003e\u003cbr\u003eEmbrace the magic and make a statement with Bewakoof's Crest Mark Graphic Printed Men's Black Oversized Acid Wash T-shirt  where fashion meets the wizarding world! Don this t-shirt and let the enchantment begin.\u003cbr\u003e\u003cbr\u003e\u003cb style=\"font-family: montserrat-bold, sans-serif\"\u003e Country of Origin - \u003c/b\u003eIndia\u003cbr\u003e\u003cbr\u003e\u003cb style=\"font-family: montserrat-bold, sans-serif\"\u003e Manufactured By - \u003c/b\u003eBewakoof Brands Pvt Ltd,\u003cbr\u003e Sairaj logistic hub #A5, BMC pipeline road, Opposite all saints high school, Amane, Bhiwandi, Thane, Maharashtra 421302\u003cbr\u003e\u003cbr\u003e\u003cb style=\"font-family: montserrat-bold, sans-serif\"\u003e Packed By - \u003c/b\u003eBewakoof Brands Pvt Ltd,\u003cbr\u003e Sairaj logistic hub #A5, BMC pipeline road, Opposite all saints high school, Amane, Bhiwandi, Thane, Maharashtra 421302\u003cbr\u003e\u003cbr\u003e\u003cb style=\"font-family: montserrat-bold, sans-serif\"\u003e Commodity - \u003c/b\u003eMen's T-Shirt\u003cbr\u003e","icon":"https://images.bewakoof.com/web/ic-prod-desc.svg","subheading":"Manufacture, Care and Fit","specifications":{"header":"Product Specifications","description_details":["Oversized fit - Super Loose On Body Thoda Hawa Aane De","Single Jersey - Classic, lightweight jersey fabric comprising 100% cotton."]}},{"head":"15 DAY RETURNS","line1":"Easy returns upto 15 days of delivery.","subheading":"Know about return \u0026 exchange policy","icon":"https://images.bewakoof.com/web/ic-return.svg","isReturnable":true},{"head":null,"line1":null,"image":null}],"footer_description":null,"manufacturer_brand_for_reviews":9,"quick_filters":{},"share_content":{"text":"Hey, this stuff is awesome on Bewakoof app. You can also use NEW100 to get ₹100 off on your first order"},"country_change_cta":null,"tags":[{"type":"fit","label":"OVERSIZED FIT","bgColor":"rgba(82, 82, 82, 0.8)","textColor":"#fff"},{"type":"fabric","label":"100% COTTON","bgColor":"white","border":"1px solid #737373","textColor":"#737373"}],"bestseller_tag":{"type":"bestseller","label":"BESTSELLER","bgColor":"#FFE998","textColor":"#292D35"},"stock_indicator_tag":null,"flash_sale":false,"trie_msg":{"tribe_price":639,"tribe_saving":60,"message":"TriBe members get an extra discount of \u003cb\u003e₹60\u003c/b\u003e and FREE shipping."},"pdp_tribe":{"title":"\u003cp\u003eTri\u003cspan\u003eBe\u003c/span\u003e\u003c/p\u003e Savings","subtitle":"EXTRA \u003cspan\u003e\u0026#8377;\u003c/span\u003e\u003cstrong\u003e60\u003c/strong\u003e OFF","header":"Non-Member Price \u003cspan\u003e\u0026#8377;\u003c/span\u003e\u003cspan\u003e699\u003c/span\u003e","subheader":"Never Pay Full Price. Get \u003cspan\u003eFREE\u003c/span\u003e Delivery.","partition_img":"https://images.bewakoof.com/web/ic-tribe-partition.svg","right_icon":"https://images.bewakoof.com/web/right-arrow.svg","bg_img":"https://images.bewakoof.com/web/ic-glass-light-yellow.svg"},"limited_tags":{},"product_attributes":{"occasion":"Casual Wear","closure":"Slip-On","fabric_care":"Machine wash as per tag","sleeve_style":"Half Sleeve","pack_of":"1","sleeve":"Half Sleeve","neck":"Round Neck","fit":"Oversized Fit","design":"Graphic Print"},"x_bought_in_y":{"days":7,"qty":179}},"serverRequestTraceId":"749161fc-aff6-4062-8ff3-8e151b8898b9","serverRequestCountId":0,"config":{"traceId":"37260419-6d3f-43c5-bb44-6144022b6f79","requestTraceId":"749161fc-aff6-4062-8ff3-8e151b8898b9","requestCountId":0,"nonce":"c7628ce0-fca6-4c56-bb29-7643d0d77c7a","hashedEmail":"","brand":null,"consumer":null,"common":{"isMobile":false,"isTablet":false,"isDesktop":true,"isBot":false,"isPhonePeSwitch":false,"deviceType":null,"appVersion":null,"isRNWebView":false}},"userData":{},"growtbookExperiments":{"add_to_cart":{"value":"default","on":true,"off":false,"source":"defaultValue","ruleId":""},"best_seller_new_1":{"value":"default","on":true,"off":false,"source":"defaultValue","ruleId":""},"pdp_highlights_new":{"value":"default","on":true,"off":false,"source":"defaultValue","ruleId":""},"payment_trust_banner_new":{"value":"default","on":true,"off":false,"source":"defaultValue","ruleId":""}}},"__N_SSP":true},"page":"/p/[...product_handle]","query":{"product_handle":["mens-black-crest-mark-graphic-printed-oversized-t-shirt"]},"buildId":"fNkQSQ1P3Md5Dp1GpDDRb","runtimeConfig":{"NEXT_PUBLIC_API_POLARIS_HOST":"https://polaris-prod.bewakoof.com","NEXT_PUBLIC_API_TMRW_HOST":"https://api-prod.bewakoof.com","NEXT_PUBLIC_API_TMRW_SERVICES_HOST":"http://tmrw-services-prod.tmrw.in","NEXT_PUBLIC_SHOPIFY_URL":"https://www.bewakoof.com","NEXT_PUBLIC_BK_URL":"https://www.bewakoof.com","NEXT_PUBLIC_OLD_BK_URL":"https://www.bewakoof.com","NEXT_PUBLIC_BA_API_URL":"https://analytics.bewakoof.com/tags","NEXT_PUBLIC_GTM_KEY":"GTM-P23M55H","NEXT_PUBLIC_JUSPAY_KEY":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzHHLFnOqJ2LjHcAI1WvF6mpNv2zeokY0DbX46W/P4Rc6AVBg5CUcLPYjLed32qtQaHK6PhPsTwtTN9QLczhN6X9mp+1GK5Yxm/1DOC2PsvSkF3ZacSFYx1KHDVRjG3dPPj+fe3EBXkktOG/yVRbo0LlIaVk+6mEfI9Tn0+9SBJ+1y7y4EBGc+Wd/A5tN5dKJrzsuoQYuI9tKEtAIGsiHp93vYIKr2bDTV2Kl+iqzcQAJIqOOxVTahDGv9qDurSrm6wrs3XCoeCSWGiLB/MKqYdPzgYD2uctPkGAxmRCKshMXlIveRfskMTa562K72d5ZKsc1ehkEnQ8M8yzQ4f4QMQIDAQAB","NEXT_PUBLIC_BK_CLEVERTAP_ID":"8R9-845-Z84Z","NEXT_PUBLIC_GOOGLE_CLIENT_ID":"140947639712-ukpgitufo1i1gc6nmd8o1l14tcu72nt2.apps.googleusercontent.com","NEXT_PUBLIC_FB_CLIENT_ID":"1548728332017744","NEXT_PUBLIC_BEWAKOOF_API":"https://www.bewakoof.com/v1","BEWAKOOF_API_TOKEN":"MWY5ZTNmNzFmN2M1ZTUyMjkwNjM2NGMzNmNjZTA3N2Q6M2RhMmI3OTgtNTY2MC00ZDRhLWJhZWQtNTZlMDI2MWRlYmZm","BEWAKOOF_API_TOKEN_WEB":"MWY5ZTNmNzFmN2M1ZTUyMjkwNjM2NGMzNmNjZTA3N2Q6M2RhMmI3OTgtNTY2MC00ZDRhLWJhZWQtNTZlMDI2MWRlYmZm","BEWAKOOF_API_TOKEN_MWEB":"NGNlNTUwYTc0MjBjYzQzZTdiZTNhMmY1NjNhMThhOGU6OGI1NThkZDgtOGQ5ZS00OWYxLTk4MDAtNzYxMGEzOGNjYzNk","BEWAKOOF_API_TOKEN_ANDROID":"ZmQ2ODBhM2UzMzc0Zjg1YTExZGZmZTM0MTRmNzYyMmY6YTMyODBiM2YtYjczZi00OGFkLWFlZGMtNTVmOTNlYjk4ZGI3","BEWAKOOF_API_TOKEN_IOS":"ZjBkZTU5ZmY5MTIwMmY0MzE4ZjhmODRkMTA5YmU0YWU6NjRjOTUwMGItODVjZS00MmZhLWFlOGYtNTAyZmFlOWIzYmRj","NEXT_PUBLIC_BEWAKOOF_IMAGE_HOSTNAME":"https://images.bewakoof.com","NEXT_PUBLIC_PDP_IMAGES_S31080_BUCKET":"t1080","NEXT_PUBLIC_PDP_IMAGES_S3540_BUCKET":"t540","NEXT_PUBLIC_PDP_IMAGES_S396_BUCKET":"t96","NEXT_PUBLIC_PDP_IMAGES_S3ORIGINAL_BUCKET":"original","NEXT_PUBLIC_PLP_IMAGES_S3640_BUCKET":"t640","NEXT_PUBLIC_PLP_IMAGES_S3320_BUCKET":"t320","NEXT_PUBLIC_SEARCH_IMAGES_S3_BUCKET":"t320","NEXT_PUBLIC_GROWTHBOOK_API_HOST":"https://abtests-proxy.tmrw.in","NEXT_PUBLIC_GROWTHBOOK_CLIENT_KEY":"sdk-hS9jvR58TqJi8LV"},"isFallback":false,"isExperimentalCompile":false,"gssp":true,"scriptLoader":[]}</script><script id="custom-analytics-script" defer="true" data-nscript="afterInteractive">
+          function baSetCookie(
+            name,
+            value,
+            expiry,
+            domain = ".bewakoof.com",
+          ) {
+            document.cookie =
+              name +
+              "=" +
+              value +
+              (expiry ? ";expires=" + new Date(expiry) : "") +
+              ";domain=" + domain +
+              ";path=/";
+          }
+          function baGetCookie(name) {
+            const value = "; " + document.cookie;
+            const parts = value.split("; " + name + "=");
+            if (parts.length === 2) return parts?.pop()?.split(";").shift();
+          }
+          var Analytics = (function (t) {
+            function o(e) {
+              if (n[e]) return n[e].exports;
+              var r = (n[e] = { i: e, l: !1, exports: {} });
+              return t[e].call(r.exports, r, r.exports, o), (r.l = !0), r.exports;    
+            }
+            var n = {};
+            return (
+              (o.m = t),
+              (o.c = n),
+              (o.d = function (e, r, t) {
+                o.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }); 
+              }),
+              (o.r = function (e) {
+                "undefined" != typeof Symbol &&
+                  Symbol.toStringTag &&
+                  Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),  
+                  Object.defineProperty(e, "__esModule", { value: !0 });
+              }),
+              (o.t = function (r, e) {
+                if ((1 & e && (r = o(r)), 8 & e)) return r;
+                if (4 & e && "object" == typeof r && r && r.__esModule) return r;     
+                var t = Object.create(null);
+                if (
+                  (o.r(t),
+                  Object.defineProperty(t, "default", { enumerable: !0, value: r }),  
+                  2 & e && "string" != typeof r)
+                )
+                  for (var n in r)
+                    o.d(
+                      t,
+                      n,
+                      function (e) {
+                        return r[e];
+                      }.bind(null, n)
+                    );
+                return t;
+              }),
+              (o.n = function (e) {
+                var r =
+                  e && e.__esModule
+                    ? function () {
+                        return e.default;
+                      }
+                    : function () {
+                        return e;
+                      };
+                return o.d(r, "a", r), r;
+              }),
+              (o.o = function (e, r) {
+                return Object.prototype.hasOwnProperty.call(e, r);
+              }),
+              (o.p = "/"),
+              o((o.s = 3))
+            );
+          })([
+            function (e, r, t) {
+              var g,
+                v,
+                _ = t(1),
+                y = t(2),
+                m = 0,
+                h = 0;
+              e.exports = function (e, r, t) {
+                var n = (r && t) || 0,
+                  o = r || [],
+                  i = (e = e || {}).node || g,
+                  a = void 0 !== e.clockseq ? e.clockseq : v;
+                if (null == i || null == a) {
+                  var u = _();
+                  null == i && (i = g = [1 | u[0], u[1], u[2], u[3], u[4], u[5]]),    
+                    null == a && (a = v = 16383 & ((u[6] << 8) | u[7]));
+                }
+                var c = void 0 !== e.msecs ? e.msecs : new Date().getTime(),
+                  s = void 0 !== e.nsecs ? e.nsecs : h + 1,
+                  l = c - m + (s - h) / 1e4;
+                if (
+                  (l < 0 && void 0 === e.clockseq && (a = (a + 1) & 16383),
+                  (l < 0 || m < c) && void 0 === e.nsecs && (s = 0),
+                  1e4 <= s)
+                )
+                  throw new Error("uuid.v1(): Can't create more than 10M uuids/sec"); 
+                (m = c), (v = a);
+                var f = (1e4 * (268435455 & (c += 122192928e5)) + (h = s)) % 4294967296;
+                (o[n++] = (f >>> 24) & 255),
+                  (o[n++] = (f >>> 16) & 255),
+                  (o[n++] = (f >>> 8) & 255),
+                  (o[n++] = 255 & f);
+                var p = ((c / 4294967296) * 1e4) & 268435455;
+                (o[n++] = (p >>> 8) & 255),
+                  (o[n++] = 255 & p),
+                  (o[n++] = ((p >>> 24) & 15) | 16),
+                  (o[n++] = (p >>> 16) & 255),
+                  (o[n++] = (a >>> 8) | 128),
+                  (o[n++] = 255 & a);
+                for (var d = 0; d < 6; ++d) o[n + d] = i[d];
+                return r || y(o);
+              };
+            },
+            function (e, r) {
+              var t =
+                ("undefined" != typeof crypto &&
+                  crypto.getRandomValues &&
+                  crypto.getRandomValues.bind(crypto)) ||
+                ("undefined" != typeof msCrypto &&
+                  "function" == typeof window.msCrypto.getRandomValues &&
+                  msCrypto.getRandomValues.bind(msCrypto));
+              if (t) {
+                var n = new Uint8Array(16);
+                e.exports = function () {
+                  return t(n), n;
+                };
+              } else {
+                var o = new Array(16);
+                e.exports = function () {
+                  for (var e, r = 0; r < 16; r++)
+                    0 == (3 & r) && (e = 4294967296 * Math.random()),
+                      (o[r] = (e >>> ((3 & r) << 3)) & 255);
+                  return o;
+                };
+              }
+            },
+            function (e, r) {
+              for (var o = [], t = 0; t < 256; ++t)
+                o[t] = (t + 256).toString(16).substr(1);
+              e.exports = function (e, r) {
+                var t = r || 0,
+                  n = o;
+                return [
+                  n[e[t++]],
+                  n[e[t++]],
+                  n[e[t++]],
+                  n[e[t++]],
+                  "-",
+                  n[e[t++]],
+                  n[e[t++]],
+                  "-",
+                  n[e[t++]],
+                  n[e[t++]],
+                  "-",
+                  n[e[t++]],
+                  n[e[t++]],
+                  "-",
+                  n[e[t++]],
+                  n[e[t++]],
+                  n[e[t++]],
+                  n[e[t++]],
+                  n[e[t++]],
+                  n[e[t++]],
+                ].join("");
+              };
+            },
+            function (e, r, t) {
+              "use strict";
+              function n(r, t) {
+                return new Promise(function (e) {
+                  y({ type: "track", event: r, properties: t }), e();
+                });
+              }
+              function o(r, t) {
+                var n = {
+                  path: l.pathname || "",
+                  search: l.search || "",
+                  title: l.title || "",
+                  url: l.url?.split("?")[0] || "",
+                  referrer: l.referrer,
+                };
+                return new Promise(function (e) {
+                  y({ type: "page", name: r, properties: b({}, n, t) }), e();
+                });
+              }
+              function i(r, t) {
+                return new Promise(function (e) {
+                  h.set(r, t), e();
+                });
+              }
+              function a(r, t) {
+                return new Promise(function (e) {
+                  switch (r) {
+                    case "device_category":
+                      g.context.device_category = t;
+                      break;
+                    case "ab_id":
+                      g.ab_id = t;
+                      break;
+                    case "webview":
+                      g.context.webview = t;
+                      break;
+                    case "api_url":
+                      (v.BA_API_URL = t), h.initialize(), g.initialize();
+                      break;
+                    case "page_properties":
+                      g.context.page = t;
+                  }
+                  e();
+                });
+              }
+              t.r(r);
+              var u = "_stv1",
+                c = function (e, r, t) {
+                  localStorage.setItem(
+                    u + e,
+                    JSON.stringify({
+                      value: r,
+                      expiry: t ? Math.floor(Date.now() / 1e3) + t : 9999999999,      
+                    })
+                  );
+                },
+                s = function (r) {
+                  try {
+                    var _e = baGetCookie(u + r);
+                    if (_e) baSetCookie(u + r, "", 1);
+                    var e = JSON.parse(_e || localStorage.getItem(u + r));
+                    if (e.expiry && e.expiry > Math.floor(Date.now() / 1e3))
+                      return e.value;
+                    throw new Error("Key not found or expired");
+                  } catch (e) {
+                    return localStorage.removeItem(u + r), null;
+                  }
+                },
+                l = {
+                  get query() {
+                    for (
+                      var e,
+                        r = location.search.substring(1),
+                        t = /([^&=]+)=([^&]*)/g,
+                        n = {};
+                      (e = t.exec(r));
+
+                    )
+                      n[decodeURIComponent(e[1])] = decodeURIComponent(e[2]);
+                    return n;
+                  },
+                  get search() {
+                    return location.search;
+                  },
+                  get pathname() {
+                    return location.pathname;
+                  },
+                  get referrer() {
+                    var e = s("_ref") || "";
+                    return (
+                      document.referrer &&
+                        -1 < document.referrer.search(location.host) &&
+                        (e = document.referrer),
+                      c("_ref", e, 31536e3),
+                      e
+                    );
+                  },
+                  get title() {
+                    return document.title;
+                  },
+                  get url() {
+                    return location.href;
+                  },
+                },
+                f = t(0),
+                p = t.n(f),
+                d = function () {
+                  return (d =
+                    Object.assign ||
+                    function (e) {
+                      for (var r, t = 1, n = arguments.length; t < n; t++)
+                        for (var o in (r = arguments[t]))
+                          Object.prototype.hasOwnProperty.call(r, o) && (e[o] = r[o]);
+                      return e;
+                    }).apply(this, arguments);
+                },
+                g = {
+                  initialize: function () {},
+                  get context() {
+                    return {
+                      get page() {
+                        return d(
+                          {
+                            path: l.pathname || "",
+                            search: l.search || "",
+                            title: l.title || "",
+                            url: l.url?.split("?")[0] || "",
+                            referrer: l.referrer,
+                          },
+                          s("__p")
+                        );
+                      },
+                      set page(e) {
+                        c("__p", e);
+                      },
+                      get utm() {
+                        var e = { source: "", medium: "", campaign: "" };
+                        return s("_utm") && (e = s("_utm")), c("_utm", e, 1800), e;   
+                      },
+                      get webview() {
+                        return s("_wv") || "";
+                      },
+                      set webview(e) {
+                        c("_wv", e);
+                      },
+                      get device_category() {
+                        return s("_de") || "";
+                      },
+                      set device_category(e) {
+                        c("_de", e);
+                      },
+                      get screen() {
+                        return { width: screen.width, height: screen.height };        
+                      },
+                      get scroll_depth() {
+                        return innerHeight + scrollY;
+                      },
+                    };
+                  },
+                  set ab_id(e) {
+                    c("_ab_id", e, 1800);
+                  },
+                  get ab_id() {
+                    return s("_ab_id") || "";
+                  },
+                  get user_id() {
+                    return h.user_id;
+                  },
+                  get anonymous_id() {
+                    var e = s("_a_id") || p()();
+                    return c("_a_id", e), e;
+                  },
+                  get session_id() {
+                    var _e = baGetCookie("_stv1_s_id");
+                    if (_e) baSetCookie("_stv1_s_id", "", 1);
+                    var e = JSON.parse(_e || localStorage.getItem("_stv1_s_id"));     
+                    return (
+                      e &&
+                        e.expiry &&
+                        e.expiry < Math.floor(Date.now() / 1e3) &&
+                        (localStorage.isExpiredSession = "true", e = undefined),      
+                      e || ((e = {}).value = p()()),
+                      c("_s_id", e.value, 1800),
+                      e.value
+                    );
+                  },
+                },
+                v = { BA_API_URL: void 0 },
+                _ = function () {
+                  return (_ =
+                    Object.assign ||
+                    function (e) {
+                      for (var r, t = 1, n = arguments.length; t < n; t++)
+                        for (var o in (r = arguments[t]))
+                          Object.prototype.hasOwnProperty.call(r, o) && (e[o] = r[o]);
+                      return e;
+                    }).apply(this, arguments);
+                },
+                y = function (e) {
+                  var r = new XMLHttpRequest(),
+                    t = JSON.parse(JSON.stringify(_({ common: g }, e)));
+                  window.localStorage &&
+                    window.localStorage.getItem("debug") &&
+                    ("event" != t.event
+                      ? console.log("%c " + JSON.stringify(t, null, 2), "color: red") 
+                      : console.table(t.properties)),
+                    r.open(
+                      "GET",
+                      v.BA_API_URL + "/web?d=" + encodeURIComponent(JSON.stringify(t)),
+                      !0
+                    ),
+                    r.send();
+                },
+                m = { user_id: "", properties: {} },
+                h = {
+                  initialize: function () {
+                    s("_u") && (m = s("_u"));
+                  },
+                  set: function (e, r) {
+                    var t = JSON.stringify(m) || "";
+                    m = { user_id: e, properties: r };
+                    var n = JSON.stringify(m);
+                    c("_u", m), t !== n && y({ type: "identify", properties: r });    
+                  },
+                  get user_id() {
+                    return m.user_id;
+                  },
+                  get properties() {
+                    return m.properties;
+                  },
+                },
+                b = function () {
+                  return (b =
+                    Object.assign ||
+                    function (e) {
+                      for (var r, t = 1, n = arguments.length; t < n; t++)
+                        for (var o in (r = arguments[t]))
+                          Object.prototype.hasOwnProperty.call(r, o) && (e[o] = r[o]);
+                      return e;
+                    }).apply(this, arguments);
+                };
+              t.d(r, "track", function () {
+                return n;
+              }),
+                t.d(r, "identify", function () {
+                  return i;
+                }),
+                t.d(r, "page", function () {
+                  return o;
+                }),
+                t.d(r, "set", function () {
+                  return a;
+                });
+            },
+          ]);
+        </script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer><script src="/_next/static/chunks/9755-2143723c574f4688.js"></script><script src="/_next/static/chunks/8292-a1386b4f147cd6c2.js"></script><script src="/_next/static/chunks/8074-15cd07cf77cd9fc8.js"></script><script src="/_next/static/chunks/pages/%5Bplp_handle%5D-06d201138b2a1615.js"></script><script src="/_next/static/chunks/1216-2d8b48eb32ce6f42.js"></script><script src="/_next/static/chunks/9541-1effdb45948ad8f1.js"></script><script src="/_next/static/chunks/pages/index-fddef925d63e42ce.js"></script><script src="/_next/static/chunks/6789-6c21a67ac524ef7a.js"></script><script src="/_next/static/chunks/pages/mobile-covers-india-8f777b9fc4a91d56.js"></script><script src="/_next/static/chunks/4415-94f0817b365430e1.js"></script><script src="/_next/static/chunks/pages/login-7f02b59057bdd83b.js"></script><script src="/_next/static/chunks/pages/wishlist-28e893328d8b0a73.js"></script><script src="/_next/static/chunks/ea88be26-9c8a89f782d38a9c.js"></script><script src="/_next/static/chunks/fec483df-2f265b31c9e0101f.js"></script><script src="/_next/static/chunks/9260-e4bd28b1f9bcd4b8.js"></script><script src="/_next/static/chunks/6817-40a350efe1d1e06f.js"></script><script src="/_next/static/chunks/2071-c0a0083b2760ff52.js"></script><script src="/_next/static/chunks/pages/cart-314d0d0e3b2bb428.js"></script><script id="google-tag-manager" defer="true" data-nscript="lazyOnload">
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],   
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=       
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer', 'GTM-P23M55H');
+        </script>
+<script type="text/javascript" id="" charset="">(function(a,b,f,d,l,g,h,k,c,e){if(!a[d]||!a[d]._q){for(;k<h.length;)l(g,h[k++]);c=b.createElement(f);c.async=1;c.src="https://cdn.branch.io/branch-latest.min.js";e=b.getElementsByTagName(f)[0];e.parentNode.insertBefore(c,e);a[d]=g}})(window,document,"script","branch",function(a,b){a[b]=function(){a._q.push([b,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking".split(" "),
+0);branch.init("key_live_doC9avMWV2CNULy1EYp9gdkhCxbYVvEQ");branch.setBranchViewData();</script>
+
+
+
+
+<script type="text/javascript" id="" charset="">branch.setBranchViewData({data:{$deeplink_path:window.location.hostname+window.location.pathname}});</script>
+
+
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","266792363948685");</script>
+<script type="text/javascript" id="" charset="">fbq("track","PageView");</script>     
+
+<script type="text/javascript" id="" charset="">if(!window.ReactNativeWebView){var clevertap={event:[],profile:[],account:[],onUserLogin:[],notifications:[]};clevertap.account.push({id:window.clevertapID||"8R9-845-Z84Z"});(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://d2r1yp2w7bby2u.cloudfront.net":"http://static.clevertap.com")+"/js/clevertap.min.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);var c=localStorage.getItem("lastNotificationTime");
+b=(new Date).getTime();var d=864E5,e=c&&b-c>d;localStorage.setItem("lastNotificationTime",b);a.onload=function(){(!c||e)&&clevertap&&clevertap.clear();clevertap.notifications.push({titleText:"Join the style revolution!",bodyText:"Subscribe to get exclusive offers \x26 hatke updates",okButtonText:"Allow",rejectButtonText:"Don't allow",okButtonColor:"#f28046",skipDialog:!1})}})()};</script><script type="text/javascript" id="" charset="">clevertap.event.push("product_viewed",google_tag_manager["rm"]["133372027"](10));</script><script type="text/javascript" id="" charset="">var productData=google_tag_manager["rm"]["133372027"](11);
+if(branch&&productData&&!window.ReactNativeWebView){var custom_data={product_id:productData.id&&productData.id.toString()||"",product_name:productData.name||"",product_color:productData.color||"",product_mrp:productData.price&&productData.price.toString()||"",product_price:productData.price&&productData.price.toString()||"",product_url:productData.url||"",offer_type:productData.offer_type||"",gender:productData.gender||"",subclass:productData.subclass||"",quantity:"",in_stock:""},alias="product_view";
+branch.logEvent("PRODUCT_VIEW",custom_data,function(a,b){console.log("PRODUCT_VIEW",a,alias)})};</script><script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","266792363948685");</script>
+<script id="" text="" charset="" type="text/javascript" src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-935781221" data-load-time="1730477895079" height="0" width="0" src="https://td.doubleclick.net/td/rul/935781221?random=1730477895065&amp;cv=11&amp;fst=1730477895065&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4au0v898042218z89133372027za201zb9133372027&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101533422~101823848~101878899~101878944~101925629&amp;u_w=1280&amp;u_h=720&amp;url=https%3A%2F%2Fwww.bewakoof.com%2Fp%2Fmens-black-crest-mark-graphic-printed-oversized-t-shirt&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Buy%20Men's%20Black%20Crest%20Mark%20Graphic%20Printed%20Oversized%20Acid%20Wash%20T-shirt%20Online%20at%20Bewakoof&amp;npa=0&amp;pscdl=noapi&amp;auid=772419751.1730477895&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B128.0.6613.85%7CNot%253BA%253DBrand%3B24.0.0.0%7CGoogle%2520Chrome%3B128.0.6613.85&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0&amp;fledge=1" style="display: none; visibility: hidden;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-935781221" data-load-time="1730477895122" height="0" width="0" src="https://td.doubleclick.net/td/rul/935781221?random=1730477895118&amp;cv=11&amp;fst=1730477895118&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4au0v898042218z89133372027za201zb9133372027&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101533422~101823848~101878899~101878944~101925629&amp;u_w=1280&amp;u_h=720&amp;url=https%3A%2F%2Fwww.bewakoof.com%2Fp%2Fmens-black-crest-mark-graphic-printed-oversized-t-shirt&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Buy%20Men's%20Black%20Crest%20Mark%20Graphic%20Printed%20Oversized%20Acid%20Wash%20T-shirt%20Online%20at%20Bewakoof&amp;npa=0&amp;pscdl=noapi&amp;auid=772419751.1730477895&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B128.0.6613.85%7CNot%253BA%253DBrand%3B24.0.0.0%7CGoogle%2520Chrome%3B128.0.6613.85&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0&amp;fledge=1&amp;data=ecomm_prodid%3D625622%3Becomm_pagetype%3Dproduct" style="display: none; visibility: hidden;"></iframe><script type="text/javascript" id="" charset="">fbq("track","ViewContent",{content_name:google_tag_manager["rm"]["133372027"](29).name||"",content_ids:google_tag_manager["rm"]["133372027"](30).product_id||"",content_type:"product",value:google_tag_manager["rm"]["133372027"](31).price||0,currency:"INR"});</script>
+
+
+<script id="" text="" charset="" type="text/javascript" src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script><ct-web-inbox></ct-web-inbox>        
+
+
+<script id="" text="" charset="" type="text/javascript" src="https://www.gstatic.com/firebasejs/7.15.5/firebase-performance.js"></script>
+
+<script type="text/javascript" id="" charset="">var firebaseConfig={apiKey:"AIzaSyAthQZVzYAabQt6k4b9avfz0WaGL6aqyiM",authDomain:"bewakoof-com-api-project-618955247303.firebaseapp.com",databaseURL:"https://bewakoof-com-api-project-618955247303.firebaseio.com",projectId:"bewakoof.com:api-project-618955247303",storageBucket:"undefined",messagingSenderId:"618955247303",appId:"1:618955247303:web:14adde07ab1a1a713338e2",measurementId:"G-F5TF0XY73D"};firebase.initializeApp(firebaseConfig);var analytics=firebase.analytics(),perf=firebase.performance();</script></body></html>
